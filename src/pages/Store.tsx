@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Col, Row } from "react-bootstrap"
 import storeItems from "../data/items.json"
 import { StoreItem } from "../components/StoreItem"
@@ -15,4 +16,8 @@ export function Store(){
   </Row>
   </>
   )
+=======
+export function Store(){
+  return <h1>Store</h1>
+>>>>>>> 69afa614c587d29d1361bc7ba368488ffb7ee6f8
 }
