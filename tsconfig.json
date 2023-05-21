@@ -1,15 +1,5 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-    "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["vite.config.ts"]
-}
-=======
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
@@ -32,4 +22,3 @@
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
->>>>>>> 5c8064b0f7be9bb0ffe4553dbb33a9347dedd7b7
